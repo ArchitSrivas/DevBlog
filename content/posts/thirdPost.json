@@ -1,0 +1,8 @@
+{
+  "slug": "serverless-functions-demystified",
+  "title": "How Serverless Runs Under the Hood",
+  "date": "2026-09-28",
+  "excerpt": "Why your API routes don't need a persistent Node.js listener.",
+  "content": "Serverless functions spin up on demand to handle incoming requests and exit immediately after responding. This requires thinking in stateless patterns rather than in-memory globals.",
+  "tags": ["backend", "serverless", "node"]
+}

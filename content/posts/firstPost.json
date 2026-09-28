@@ -1,0 +1,8 @@
+{
+  "slug": "getting-started-with-nextjs",
+  "title": "Getting Started with Next.js App Router",
+  "date": "2026-09-20",
+  "excerpt": "A quick look at why the App Router simplifies React architecture.",
+  "content": "Next.js brings server-first components to React by default. This reduces bundle size and eliminates boilerplate data-fetching hooks.",
+  "tags": ["nextjs", "react", "webdev"]
+}

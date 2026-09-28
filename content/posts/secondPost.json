@@ -1,0 +1,8 @@
+{
+  "slug": "server-vs-client-components",
+  "title": "Understanding the Server/Client Boundary",
+  "date": "2026-09-24",
+  "excerpt": "When to keep code on the server and when to reach for 'use client'.",
+  "content": "Keep components on the server for direct database access, secret handling, and faster initial loads. Only add 'use client' when handling browser events, useState, or useEffect.",
+  "tags": ["react", "architecture", "performance"]
+}
