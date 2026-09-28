@@ -1,5 +1,13 @@
 import * as fs from 'node:fs/promises';
 
+interface Post {
+  slug: string,
+  title: string,
+  date: string,
+  excerpt: string,
+  content: string,
+  tags: string[]
+}
 
 export default async function Readposts(){
   let data = "";
@@ -13,9 +21,11 @@ export default async function Readposts(){
     console.log("Error fetchind data from posts" + error);
   }
 
-data = JSON.parse(data);
-data1 = JSON.parse(data1);
-data2 = JSON.parse(data2);
+const post:Post = JSON.parse(data);
+const post1: Post = JSON.parse(data1);
+const post2: Post = JSON.parse(data2);
 
-return {data , data1 , data2}
+
+
+return {post , post1 , post2};
 }
